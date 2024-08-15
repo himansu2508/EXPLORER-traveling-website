@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+ <script >function validate()
+    {
+    var username=document.getElementById("username").value;
+    var password=document.getElementById("passname").value;
+    if((username=="himanshu@gmail.com"&& password=="gatepass")){
+       alert("login succesfully");
+        return false;
+    } 
+    else{
+        alert("login failed");
+    }
+    }</script>
+</head> <body>
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Login <hr color="grey"></h3>
+
+                <div class="inputBox">
+                    <span>User id:</span>
+                    <input type="email" id="username" placeholder="Enter username" required>
+                </div>
+                <div class="inputBox">
+                    <span>Password :</span>
+                    <input type="password" id="password" placeholder="Enter password"required>
+                </div>
+                 <span>not member?</span><a href="signup/signup.html">signup</a>
+
+            </div>
+
+            
+    
+        </div>
+
+        <input type="submit" value="login" class="submit-btn" onclick="validate()">
+
+    </form>
+
+</div>    
+    
+</body>
+</html>

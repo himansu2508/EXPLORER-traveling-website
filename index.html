@@ -1,0 +1,624 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXPLORER</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- own css -->
+    <link rel="stylesheet" href="styles.css" />
+
+ 
+  
+</head>
+
+<body>
+  <!-- header section starts  -->
+
+  <header>    
+    <div class="header__container" id="home">
+      <div class="nav__main">
+        <div class="nav__links-container">
+          <div class="nav__left">
+            <a href="#home" class="nav__link"> EXPLORER</a>
+          </div>
+          <div class="nav__right">
+            
+            <a href="#packages" class="nav__link">Package</a>
+            <a href="#gallery" class="nav__link">Gallery </a>
+            <a href="#about" class="nav__link">About</a>
+            <a href="#contactuspage" class="nav__link">Contact us</a>
+            <a href="./login/login.html" class="nav__link">Log in</a>
+            <button  onclick="darktheme()"onclick="darktheme()" ondblclick="whitetheme()">Dark mode</button>
+            
+            <script>
+             function darktheme(){
+                document.body.style.background="black";
+             document.body.style.color= "white";
+             
+             }
+             function whitetheme(){
+             document.body.style.background="white";
+             document.body.style.color="black";
+             }
+
+             </script>
+           
+          </div>
+        </div>
+      </div>
+
+      <section class="hero" id="hero">
+        <div class="background-image" style="background-image: url(./image/kerala.jpg); "></div>    
+        <div class="hero-content-area">
+            <h1 ><u>EXPLORER</u></h1>
+            <h3 >Jourrneys as great as the destination.</h3>
+         
+        </div>
+        </section>
+
+      <br><br><br>   <br><br><br>   <br><br><br>   <br><br><br>   <br><br><br>   <br><br><br>   <br><br><br>
+          <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+      <h1 class="heading__common about__section--heading">
+        <u > Packages</u>
+      </h1>
+   
+      <br />
+      <div class="box-container">
+
+          <div class="box">
+              <img src="img/p-1.jpg" alt="">
+              <div class="content">
+                  <h3> <i class="fas fa-map-marker-alt"></i> Goa </h3>
+                  <p>Goa is a state in western India with coastlines stretching along the Arabian Sea.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <div class="price"> ₹5,999 <span>₹8,000</span> </div>
+                  <a href="./project/goa/goa.html" class="btn" style="background-color: #27ae60; height: 10px; width: 10px; padding:1px;  font-size: 15px;
+                  background: #27ae60;  color:#fff; margin: 3px;
+           cursor: pointer;">Book Now</a>
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/p-2.jpg" alt="">
+              <div class="content">
+                  <h3> <i class="fas fa-map-marker-alt"></i> Karnataka</h3>
+                  <p>Karnataka is also one of the oldest regions in India and is popular for its age-old culture, traditions and heritage.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                       <i class="far fa-star-half-alt"></i>
+                  </div>
+                  <div class="price"> ₹7,999 <span>₹12,000</span> </div>
+                  <a href="project/karnataka/karnataka.html" class="btn" style="background-color: #27ae60; height: 10px; width: 10px; padding:1px;  font-size: 15px;
+                  background: #27ae60;  color:#fff; margin: 3px;
+           cursor: pointer;" >Book Now</a>
+                  
+
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/p-3.jpg" alt="">
+              <div class="content">
+                  <h3> <i class="fas fa-map-marker-alt"></i> Tamil nadu </h3>
+                  <p>Tamil Nadu is famous for its temples, festivals, and celebration of the arts.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class=""></i>
+                  </div>
+                  <div class="price"> ₹5,999 <span>₹10,000</span> </div>
+                  <a href="./project/tamil/tamil.html" class="btn" style="background-color: #27ae60; height: 10px; width: 19px; padding:1px;  font-size: 15px;
+                  background: #27ae60;  color:#fff; margin: 5px;
+           cursor: pointer;">Book Now</a>
+              </div>
+          </div>
+
+          <div class="box">
+              <img src="img/p-4.jpg" alt="">
+              <div class="content">
+                  <h3> <i class="fas fa-map-marker-alt"></i> Maharashtra </h3>
+                  <p>Mumbai Harbour waterfront stands the iconic Gateway of India stone arch.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star-half-alt"></i>
+                  </div>
+                  <div class="price"> ₹6,999 <span>₹9,000</span> </div>
+                  <a href="./project/maharashtra/maharashtra.html" class="btn" style="background-color: #27ae60; height: 10px; width: 10px; padding:1px;  font-size: 15px;
+                  background: #27ae60;  color:#fff; margin: 3px;
+           cursor: pointer;">Book Now</a>
+              </div>
+          </div>
+
+          <div class="box">
+              <img src="img/p-5.jpg" alt="">
+              <div class="content">
+                  <h3> <i class="fas fa-map-marker-alt"></i> Kerala</h3>
+                  <p>Kerala is god's own city specially known for its culture.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <div class="price"> ₹5,499 <span>₹7,000</span> </div>
+                  <a href="./project/kerala/Kerala.html" class="btn" style="background-color: #27ae60; height: 10px; width: 10px; padding:1px;  font-size: 15px;
+                  background: #27ae60;  color:#fff; margin: 3px;
+           cursor: pointer;">Book Now</a>
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/p-6.jpg" alt="">
+              <div class="content">
+                  <h3> <i class="fas fa-map-marker-alt"></i> Rajasthan</h3>
+                  <p>Gadisar lake at Jaisalmer Rajasthan at sunrise with ancient temples and archaeological ruins.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-star"></i>
+                  </div>
+                  <div class="price"> ₹4,999 <span>₹9,000</span> </div>
+                  <a href="./project/rajasthan/rajasthan.html" class="btn" style="background-color: #27ae60; height: 10px; width: 10px; padding:1px;  font-size: 15px;
+                  background: #27ae60;  color:#fff; margin: 3px;
+           cursor: pointer;">Book Now</a>
+              </div>
+          </div>
+
+          <div class="box">
+              <img src="img/p-7.jpg" alt="">
+              <div class="content">
+                  <h3> <i class="fas fa-map-marker-alt"></i> Telangana </h3>
+                  <p>Telangana is located in the southern part of India and is renowned for its natural attractions, temples, palaces, forts and other heritage sites.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star-half-alt"></i>
+                      <i class="far fa-star-half-alt"></i>
+                  </div>
+                  <div class="price"> ₹6,999 <span>₹9,000</span> </div>
+                  <a href="./project/telangana/telangana.html" class="btn" style="background-color: #27ae60; height: 10px; width: 10px; padding:1px;  font-size: 15px;
+                  background: #27ae60;  color:#fff; margin: 3px;
+           cursor: pointer;">Book Now</a>
+              </div>
+          </div>
+          
+          <div class="box">
+            <img src="img/p-8.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Andhra Pradesh</h3>
+                <p>Andhra Pradesh is known as the Koh-i-Noor of India and there are numerous places to visit in this beautiful state.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ₹6,999 <span>₹9,000</span> </div>
+                <a href="./project/andhra/andhra.html" class="btn" style="background-color: #27ae60; height: 10px; width: 10px; padding:1px;  font-size: 15px;
+                background: #27ae60;  color:#fff; margin: 3px;
+         cursor: pointer;">Book Now</a>
+            </div>
+        </div>
+
+      </div>
+  </section>  <!-- packages section ends -->
+  <!-- gallery section starts  -->
+
+  <section class="gallery" id="gallery">
+
+    <h1 class="heading__common about__section--heading">
+     <u>   Gallery   </u>  </h1>
+    <br />
+    <div class="box-container">
+        <div class="box">
+            <img src="img/gallery/1.jpg" alt="">
+            <div class="content">
+                <h3>Lonar, Maharashtra</h3>
+                <p>A small town in the Vidarbha region, Lonar is just 140 km away from Aurangabad. The town is famous for Lonar Crater Lake, the third-largest crater in the world and the only saltwater lake in basaltic rock. .</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/gallery/2.jpg" alt="">
+            <div class="content">
+                <h3>Bengaluru International airport.</h3>
+                <p>Topping the list for the right reasons in the capital city, Bangalore. Bangalore is the most cosmopolitan city in India. It is a melting pot that is home to people from different backgrounds, cultures and skills</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/gallery/3.jpg" alt="">
+            <div class="content">
+                <h3> Rushikonda Beach</h3>
+                <p>Rushikonda Beach is one of the most scenic and popular beaches in Visakhapatnam, contributing in the city getting nicknamed, ‘Jewel of the East Coast’.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/gallery/4.jpg" alt="">
+            <div class="content">
+                <h3>Gadisar lake</h3>
+                <p>Lake at Jaisalmer Rajasthan at sunrise with ancient temples and archaeological ruins.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/gallery/5.webp" alt="">
+            <div class="content">
+                <h3>Thekkady – For The Love Of Wildlife</h3>
+                <p>Thekkady is simply heaven hidden in thick forests and wild vegetation and this is exactly what it makes one of the best forest tourist places in Keralas                </p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/gallery/6.webp" alt="">
+            <div class="content">
+                <h3>   Calangute Beach</h3>
+                <p>The largest beach in Goa, Calangute Beach is also affectionately known as the “Queen of Beaches”.  </p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/gallery/7.webp" alt="">
+            <div class="content">
+                <h3>City Palace Rajasthan</h3>
+                <p>The City Palace is one of the best tourist places to visit in Rajasthan. It is a palace complex in Jaipur that houses the famous Chandra Mahal and Mubarak Mahal.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/gallery/8.jpg" alt="">
+            <div class="content">
+                <h3>Varkala </h3>
+                <p>It is one of the best places in Kerala seaside. The enticing coastline with cliffs on one side and lush greenery on the other attracts thousands of tourists and water-adventure enthusiasts to the beach.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/gallery/9.jpg" alt="">
+            <div class="content">
+                <h3>Dudhsagar Waterfalls</h3>
+                <p>The Dudhsagar Waterfalls are situated on the Goa-Karnataka border and are one of India’s must-see sights. The four-tiered waterfall structure is one of the tallest in India and is located on the Mandovi Rive</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+          <img src="img/gallery/10.jpg" alt="">
+          <div class="content">
+              <h3>  Pratapgarh Fort</h3>
+              <p>Located at a distance of 21 km from Mahabaleshwar, Pratapgarh Fort is a popular mountain fort in Maharashtra. It was built by Chhatrapati Shivaji Maharaj and stands tall at 3543 ft above sea level. </p>
+              <a href="#" class="btn">See More</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="img/gallery/11.jpg" alt="">
+          <div class="content">
+              <h3> Simhachalam Temple</h3>
+              <p>An 11th-century Hindu temple, it is dedicated to the Varaha and Narasimha avatars of Lord Vishnu, and Goddess Lakshmi. The architecture of the temple is majorly Dravidian with several influences of the Kalinga style.</p>
+              <a href="#" class="btn">See More</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="img/gallery/12.jpg" alt="">
+          <div class="content">
+              <h3>Chitradurga</h3>
+              <p>This great monument situated in the town of Chitradurga is an archeological wonder. This fort has immense historical value as it has been in existence since the rule of Chalukyas.</p>
+              <a href="#" class="btn">See More</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="img/gallery/13.webp" alt="">
+          <div class="content">
+              <h3>Kasargod</h3>
+              <p>Located close to Bekal, tucked between Western Ghats on one side and azure Arabian Sea on the other, Kasargod is an entrancing beauty of ‘God’s own country..</p>
+              <a href="#" class="btn">See More</a>
+          </div>
+      </div>   <div class="box">
+        <img src="img/gallery/14.webp" alt="">
+        <div class="content">
+            <h3>Baga beach</h3>
+            <p>Baga Beach is the most famous of all Goa sightseeing places and as a tourist visiting Goa you really haven’t been to Goa if you haven’t been to Baga.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/gallery/15.jpg" alt="">
+        <div class="content">
+            <h3> Udupi </h3>
+            <p>Udupi, a town near Mangalore sandwiched between the Arabian Sea and Western Ghats is famously known for 2 things- Temples and Food. The beautiful and huge Sri Krishna temple in Udupi attracts devotees from all over the world. </p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/gallery/16.jpg" alt="">
+        <div class="content">
+            <h3>Hawa Mahal</h3>
+            <p>Hawa Mahal, the most distinguishing landmark of Jaipur is an exceptionally captivating destination spot, smeared with radiant hues of pink delineating delicate and honeycombed throng that is peaked at a great height</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/gallery/17.jpg" alt="">
+        <div class="content">
+            <h3>Borra Caves</h3>
+            <p>These natural caves are 705 metres above sea level. Once inside the caves, you can hear your voice echo. Moreover, right in the middle of the caves lie a small shivling. Climb on a steep stair and you will find the shrine in the centre.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+      <img src="img/gallery/18.jpg" alt="">
+      <div class="content">
+          <h3> Katiki Falls</h3>
+          <p>Katiki Waterfalls is another natural marvel near Visakhapatnam that deserves at least one visit. The main source of water to this fall is the Gosthani River.</p>
+          <a href="#" class="btn">See More</a>
+      </div>
+  </div>
+  <div class="box">
+      <img src="img/gallery/19.jpg" alt="">
+      <div class="content">
+          <h3>Jal Mahal</h3>
+          <p>Jal Mahal calls to be one of the most serene and calm places to visit in Rajasthan situated in the midst of the chaotic city of Jaipur. Jal Mahal is asymmetric low rise stately mansion which was once a shooting toll house for the Maharajah.
+</p>
+          <a href="#" class="btn">See More</a>
+      </div>
+  </div>
+  <div class="box">
+      <img src="img/gallery/20.jpg" alt="">
+      <div class="content">
+          <h3>Bijapur</h3>
+          <p>If you want a taste of royalty in your vacation to Karnataka, Bijapur is the place to go. Bijapur showcases the culture and living of the Islamic dynasty that existed there.</p>
+          <a href="#" class="btn">See More</a>
+      </div>
+  </div>
+  <div class="box">
+      <img src="img/gallery/21.webp" alt="">
+      <div class="content">
+          <h3>Thiruvananthapuram </h3>
+          <p>Thiruvananthapuram is the capital city of God’s own country and also one of the popular Kerala tourism places.</p>
+          <a href="#" class="btn">See More</a>
+      </div>
+  </div>
+  <div class="box">
+    <img src="img/gallery/22.jpg" alt="">
+    <div class="content">
+        <h3>Grand Island</h3>
+        <p>There is no dearth of water related activities in Goa, of course. But while the different beaches up and down Goa offer tourists many options, these options are not to be found all in one place. </p>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<div class="box">
+    <img src="img/gallery/23.jpg" alt="">
+    <div class="content">
+        <h3>Chikmagalur </h3>
+        <p>Chikmagalur is a very serene and scenic hill station with plenty of exciting things to do and see. Trekking on one of the hills of the magnificent Western Ghats is the popular attraction here. </p>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<div class="box">
+    <img src="img/gallery/24.jpg" alt="">
+    <div class="content">
+        <h3>Jaigarh</h3>
+        <p>The majestic Jaigarh Fort is one of the best places to see in Rajasthan. It is strategically located on top of the ‘Cheel ka Teela’ hill, about 15 km away from the city center of Jaipur.</p>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+    </div>
+</section>
+
+<!-- gallery section ends -->
+  <!-- about section ends -->
+
+ <br><br><br><br><br> <br><br><br> <br><br><br><br><br><br><br><br>
+      <h2 class="about__heading" id="about"><u>About Us</u></h2>
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-compass fa-6x"></i>
+          <h4 class="heading--4">Explore India</h4>
+          
+          <div class="feature__text">
+            Travel to the land of rich heritage culture in india, EXPLORER offers a unique taste of travel and varied experiences.
+          </div>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-hotel fa-6x"></i>
+          <h4 class="heading--4">Luxurious Hotels</h4>
+          <div class="feature__text">
+            EXPLORER believes in Royalty. We offer luxurious plans which include luxury hotels, food, resorts etc. So come with us on the royal trip to different places in India.
+          </div>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-search-location fa-6x"></i>
+          <h4 class="heading--4">Best Locations</h4>
+          <div class="feature__text">
+            We provide the best location in India for your better experiences. EXPLORER offers variety and to choose your own plans and places to explore. India is a diverse country so we make diversity in our plans also.
+          </div>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-window-close fa-6x"></i>
+          <h4 class="heading--4">Cancelling Trips</h4>
+          <div class="feature__text">
+            If you want to cancel your trip then EXPLORER offers you this feature also. EXPLORER will refund you all money if you cancel your trip within 15 days. For more, you can read our travel policy in the below section and through contactus you can ask your all quaries.
+
+          </div>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-smile-beam fa-6x"></i>
+          <h4 class="heading--4">Have fun</h4>
+          <div class="feature__text">
+            We will include every amazing thing in our packages. We will include adventure rides, trips in our package. So let's have fun with us.
+
+          </div>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-rupee-sign fa-6x"></i>
+          <h4 class="heading--4">Secure Payment</h4>
+          <div class="feature__text">
+            EXPLORER provides you with a variety of payment options. You can do payment both in offline and online modes. For online methods, we have a secure payments gateway that gives you premium safety advantages.
+          </div>
+        </div>
+      </div>
+
+      
+
+
+  <!-- about section ends -->
+  
+<!-- contact section starts  --> 
+<section class="contactuspage" id="contactuspage">
+<h1 class="heading__common about__section--heading">
+  <u> contact Us</u>
+</h1>
+<section class="contactus" id="contactus">
+  <div class="box1">
+  
+     
+                 
+  <form>
+  <br><br><br> 
+       <lable style="color: rgb(97, 90, 119) ;"> <b> First Name :</b> </lable> <br><br>
+       <input type="text" placeholder=" First Name" required>
+       <br><br>
+  
+       <lable style="color: rgb(97, 90, 119) ;"> <b>Last Name :</b> </lable> <br><br>
+       <input type="text" placeholder="Last Name" required>
+       <br><br>
+      
+       <lable style="color: rgb(97, 90, 119) ;"> <b> Email :</b> </lable>  <br><br>
+       <input type="email" placeholder="Email" required>
+       <br><br>
+      
+       <lable style="color: rgb(97, 90, 119) ;"> <b> Message For Us :</b></lable><br><br>
+       <textarea type="textarea" rows="5" cols="54" placeholder="Write your problem here..." required></textarea>
+       <br><br>
+      
+       <input type="submit" value="submit" style="background-color: #27ae60;  width: 96%; padding:10px;  font-size: 17px;
+         background: #27ae60;  color:#fff; margin-top: 5px;
+  cursor: pointer;" ><br><br>
+  
+  </form>
+  
+              </div> 
+  
+          <div class="box2">
+  <p>
+      <b>You all can contact us through these ways and we try to  solve your problmes as soon as posible 
+      <center>Thanku !</center>
+  
+      <br><br>
+      
+   &nbsp; Contact-Us : 91+9999873054  <br><br>
+  
+   &nbsp; Email : EXPLORER@gmail.com
+  
+  </b>
+  </p>
+  
+          </div>
+  
+          <div class="box3">
+  
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.3337392566145!2d76.87109387564308!3d30.877323518235194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff55d9e0ed113%3A0x34a6cadf9a13d341!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1646670973609!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  
+          </div>
+          </section><br><br><br>
+        </section>
+          <!-- contact section ends  -->
+  
+
+  <br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+      <!-- footer section  -->
+
+      <section class="footer">
+        <div class="box-container">
+           
+            <div class="box">
+                <h3>Created by</h3>
+                <p>Himanshu shukla</p>
+                <p >Abhishek saklani</p>
+                
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                
+               
+            <a href="#packages" >Package</a>
+            <a href="#gallery" >Gallery </a>
+            <a href="#about" >About</a>
+            <a href="#contactuspage" >Contact us</a>
+            <a href="./login/login.html" >Log in</a>
+            <a href="./project/booknow/Book now.html" >Book now</a>
+            <button  onclick="darktheme()"onclick="darktheme()" ondblclick="whitetheme()">Dark mode</button>
+            
+            <script>
+             function darktheme(){
+                document.body.style.background="black";
+             document.body.style.color= "white";
+             
+             }
+             function whitetheme(){
+             document.body.style.background="white";
+             document.body.style.color="black";
+             }
+
+             </script>
+
+            </div>
+            <div class="box">
+                <h3>Contact us</h3>
+                <p><i class="fas fa-phone-alt"></i>+91 7560046099</i></p>
+                <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;EXPLORER@gmail.com</i></p>
+                <p><i class="fas fa-home"></i>&nbsp;Chitkara University ,Atal Shiksha Kunj, Pinjore-Nalagarh National Highway (NH-21A), kalujhinda, Distt, Baddi, 174103</i></p>
+            </div>
+
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.linkedin.com/in"><i class="fab fa-linkedin"></i> Linkedin</a>
+             
+                
+                
+            </div>
+        </div>
+        <h1 class="credit">  All rights reserved! by EXPLORER</h1>
+    </section>
+ 
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
